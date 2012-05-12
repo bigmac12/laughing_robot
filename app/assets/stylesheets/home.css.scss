@@ -2,11 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body
+{
+  background-color: white;
+}
+
+#registration_main,
 #home_main
 {
 	height: 350px;
 	width: 350px;
 
+  background-color: white;
 	border: 1px solid black;
 
 	margin:
@@ -14,4 +21,28 @@
 		left: auto;
 		right: auto;
 	}
+
+  padding: 5px;
+}
+
+#logo
+{
+  width: 500px;
+
+  margin:
+  {
+    left: auto;
+    right: auto;
+  }
+}
+
+#user_nav
+{
+  background-color: #C6DEFF;
+  padding: 2px;
+
+  margin:
+  {
+    bottom: 3px;
+  }
 }
