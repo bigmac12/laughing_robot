@@ -1,4 +1,4 @@
-#home_main
+#home_main_login
   %h2 Sign in
   = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
     %div
@@ -13,5 +13,8 @@
       %div
         = f.check_box :remember_me
         = f.label :remember_me
-    %div= f.submit "Sign in"
+    %div= f.submit "Sign In"
   = render "links"
+#home_main_steps
+  %h2 Welcome to Tutor Finder!
+  Signing up is easy and takes only a few short minutes.

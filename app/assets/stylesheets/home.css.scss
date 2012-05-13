@@ -1,28 +1,43 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$height: 275px;
+$left_margin: 215px;
 
 body
 {
   background-color: white;
 }
 
-#registration_main,
-#home_main
+#home_main_login
 {
-	height: 350px;
-	width: 350px;
+  float: left;
+	height: $height;
+	width: 20%;
 
   background-color: white;
 	border: 1px solid black;
 
 	margin:
 	{
-		left: auto;
-		right: auto;
+		left: $left_margin;
+		right: 15px;
 	}
 
   padding: 5px;
+}
+
+#registration_main
+{
+  width: 60%;
+  border: 1px solid black;
+  padding: 5px;
+
+  margin:
+  {
+    left: $left_margin;
+    right: auto;
+  }
 }
 
 #logo
@@ -44,5 +59,63 @@ body
   margin:
   {
     bottom: 3px;
+  }
+}
+
+#home_main_steps
+{
+  border: 1px solid black; 
+  height: $height;
+  width: 40%;
+  padding: 5px;
+  float: left;
+}
+
+#already_member
+{
+  border: 1px solid black;
+  height: 65px;
+  padding: 10px;
+  position: relative;
+
+  width: 40%;
+
+  margin:
+  {
+    bottom: 10px;
+    left: $left_margin;
+    right: auto;
+  }
+}
+
+margin-bottom
+margin-left
+margin-right
+
+#already_member_text
+{
+  float: left;
+  position: absolute;
+  top: 45%;
+}
+
+#already_member_link
+{
+  margin:
+  {
+    left: 170px;
+  }
+}
+
+#account_main
+{
+
+}
+
+#link_partial
+{
+  margin:
+  {
+    top: 15px;
   }
 }
